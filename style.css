@@ -1,5 +1,4 @@
-/* Page background and font */
-    body {
+ body {
     	font-family: 'Times New Roman';
     	background-color: white;
     	margin: 0;
@@ -31,4 +30,107 @@
     	bottom: 0;
     	width: 100%;
     }
-     
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background: red;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Make images flexible */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Improve navigation layout */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.container {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    max-width: 200px;
+    width: 100%;
+}
+
+table {
+    display: block;
+    overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 22px;
+        padding: 15px;
+    }
+
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #555;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
