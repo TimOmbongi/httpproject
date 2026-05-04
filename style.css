@@ -3,8 +3,7 @@
     	background-color: white;
     	margin: 0;
     }
-    
-    /* Header */
+   
     h1 {
     	text-align: center;
     	color: white;
@@ -13,14 +12,12 @@
     	margin: 0;
     }
 
-    /* Table */
     table {
     	width: 100%;
     	border-collapse: collapse;
     	border: 1px solid black;
     }
 
-    /* Footer */
     footer {
     	text-align: center;
     	padding: 10px;
@@ -63,7 +60,6 @@ img {
     height: auto;
 }
 
-/* Improve navigation layout */
 nav {
     display: flex;
     justify-content: center;
